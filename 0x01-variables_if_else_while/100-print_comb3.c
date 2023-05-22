@@ -15,7 +15,7 @@ int main(void)
 	{
 		for (number = '1'; number <= '9'; number++)
 		{
-			if (numbers != number && number != numbers)
+			if (numbers < number)
 			{
 				putchar(numbers);
 				putchar(number);
