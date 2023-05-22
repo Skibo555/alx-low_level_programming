@@ -16,11 +16,18 @@ int main(void)
 		for (number = '1'; number <= '9'; number++)
 		{
 			if (numbers != number && number != numbers)
+			{
 				putchar(numbers);
 				putchar(number);
-				if (numbers != '8' || number != '9')
-				putchar(',');
-				putchar(' ');
+				{
+					if (numbers == '8' && number == '9')
+						continue;
+					{
+						putchar(',');
+						putchar(' ');
+					}
+				}
+			}
 		}
 	}
 	putchar('\n');
