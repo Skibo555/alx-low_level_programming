@@ -2,8 +2,7 @@
 /**
  * main - Entry point.
  *
- * @_putchar: is the function that prints characters to -
-standard output.
+ * @_putchar: is the function that prints characters.
  * Return: 0 Always.
  */
 
