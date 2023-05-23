@@ -1,8 +1,11 @@
+#include <stdio.h>
 #include "main.h"
 /**
- * main - Entry point.
+ * main - Prints "_putchar".
  *
- * @_putchar: is the function that prints characters.
+ * _putchar: is the function that prints.
+ *
+ *
  * Return: 0 Always.
  */
 
