@@ -7,7 +7,7 @@ standard output.
  * Return: 0 Always.
  */
 
-int mai(void)
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
