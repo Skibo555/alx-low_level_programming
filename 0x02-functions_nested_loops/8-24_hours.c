@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * jack_bauer - prints the timer.
+ * jack_bauer - prints the timer in minutes and seconds.
  *
  *
  */
