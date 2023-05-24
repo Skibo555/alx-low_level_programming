@@ -4,10 +4,6 @@
 /**
  * jack_bauer - prints the timer.
  *
- * @s: stands for the second.
- * @m: stands for the minute.
- *
- * Return: 0 Always.
  *
  */
 
