@@ -2,7 +2,8 @@
 
 /**
  * add - it adds two numbers.
- *
+ * @a: an input to be summed.
+ * @b: second input to be summed.
  * Return: sum of the inputs.
  *
  */
