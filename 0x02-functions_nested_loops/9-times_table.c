@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * timrs_table - prints times table.
+ * times_table - prints times table.
  *
  *
  * Returns: 0.
