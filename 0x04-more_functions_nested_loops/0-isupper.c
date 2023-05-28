@@ -3,7 +3,7 @@
 /**
  * _isupper - it checks if the input is an upper case character of an alphabet.
  *
- * @a: the inpu.
+ * @c: the input.
  *
  * Return: a success.
  *
@@ -11,7 +11,7 @@
 
 int _isupper(int c)
 {
-	if ( c >= 'A' && c <= 'Z')
+	if (c >= 'A' && c <= 'Z')
 		return (1);
 	else
 		return (0);
