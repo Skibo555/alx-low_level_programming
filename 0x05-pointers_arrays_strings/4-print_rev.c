@@ -14,16 +14,12 @@ void print_rev(char *s)
 
 	len = _strlen(s);
 	i = len;
-	while (len >= i)
+	for (i = len; i >= 0; i--)
 	{
 		_putchar(s[i]);
-		i--;
-		if (i < 0)
-			break;
 	}
 	_putchar('\n');
 }
-
 
 /**
  * _strlen - it counts the lent of string.
