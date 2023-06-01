@@ -21,10 +21,8 @@ void print_rev(char *s)
 		i--;
 		if (i < '\0')
 			break;
-		{
-			if (i > 0)
-				continue;
-		}
+		if (i > 0)	
+			continue;
 	}
 	_putchar('\n');
 }
