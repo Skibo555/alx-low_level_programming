@@ -5,14 +5,13 @@
  *
  * @n: the expected parameter.
  *
- * Return: Void.
  */
 
 void print_diagonal(int n)
 {
 	int a;
 	int i = '\\';
-	int space = ' ';
+	int space;
 
 	if (n > 0)
 	{
@@ -21,7 +20,7 @@ void print_diagonal(int n)
 			space = a;
 			if (a)
 				while (space--)
-					_putchar(space);
+					_putchar(' ');
 			_putchar(i);
 			_putchar('\n');
 		}
